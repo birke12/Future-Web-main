@@ -2,6 +2,8 @@ import ArticleSection from "../components/articleSection/ArticleSection.jsx";
 /* import Introduktion from "../components/introduction/Introduction"; */
 import PageHeader from "../components/pageHeader/PageHeader";
 import HologramImage from "../components/hologram/Hologram.jsx";
+import Newsletter from "../components/newsletter/Newsletter.jsx";
+import Slider from "../components/slider/Slider.jsx";
 
 
 
@@ -17,8 +19,10 @@ function Home() {
 <HologramImage src="/assets/images/Holo3.png" /> 
 
 
+      <Slider />
       
       <ArticleSection />
+      <Newsletter />
     </>
   );
 }
